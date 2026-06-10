@@ -1,0 +1,6 @@
+{
+  "name": "Family Pet Points & Timer",
+  "description": "一个家庭养宠物升级与积分奖励系统，配有专注计时器，帮助孩子们通过完成家务和自主管理获取积分、喂养宠物升级并兑换奖励。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

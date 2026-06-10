@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;750&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --animate-spin-slow: spin 16s linear infinite;
+}
+
+/* Custom gorgeous minimal rustic warm scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E4E4E7;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4D4D8;
+}
+
+/* Base custom styles */
+body {
+  background: radial-gradient(circle at 50% 10%, #FFFAFB 0%, #FFF0F4 50%, #FFE4EC 100%);
+  color: #1C1917;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
